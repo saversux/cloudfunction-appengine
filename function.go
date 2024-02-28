@@ -17,7 +17,7 @@ func init() {
 func getInstances(w http.ResponseWriter, r *http.Request) {
 	ctx := context.Background()
 
-	var appID = r.URL.Query().Get("apId")
+	var appID = r.URL.Query().Get("appId")
 
 	// Create a new App Engine service client
 	appengineService, err := appengine.NewService(ctx, option.WithoutAuthentication())
