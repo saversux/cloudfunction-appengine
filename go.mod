@@ -1,4 +1,4 @@
-module main
+module saversux.com/appengine
 
 go 1.21.7
 
